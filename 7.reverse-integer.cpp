@@ -8,17 +8,15 @@
 class Solution {
 public:
     int reverse(int x) {
-        if(x < -1*pow(2,31) && x > pow(2,31))
-            return 0;
-        long int s = 0,t = abs(x);
-        while(t>0){
-            s = s * 10 + t % 10;
-            t /= 10;
+        long int s = 0;
+        while(x){
+            int temp = s * 10 + x % 10;
+            if (temp / 10 != s)
+                return 0;
+            s = temp;
+            x /= 10;
         }
-        if(x<0)
-            return s * -1;
-        else
-            return s;
+        return s;
     }
 };
 // @lc code=end
