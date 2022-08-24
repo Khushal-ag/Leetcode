@@ -13,7 +13,7 @@ public:
         {
             if(s[i]==' ' && space==1)
                 return c;
-            if((s[i]>='a'&&s[i]<='z') || (s[i]>='A'&&s[i]<='Z') || s[i]>='0' && s[i]<='9')
+            if(iswalnum(s[i]))
             {
                 c++;
                 space = 1;
