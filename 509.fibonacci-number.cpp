@@ -5,13 +5,21 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution
+{
 public:
-    int fib(int n) {
-        if(n==0) return 0;
-        if(n==1) return 1;
-        return fib(n - 1) + fib(n - 2);
+    int cal(vector<int> &dp, int n)
+    {
+        if (n <= 1)
+            return dp[n] = n;
+        if (dp[n] != -1)
+            return dp[n];
+        return dp[n] = cal(dp, n - 1) + cal(dp, n - 2);
+    }
+    int fib(int n)
+    {
+        vector<int> dp(n + 1, -1);
+        return cal(dp, n);
     }
 };
 // @lc code=end
-
