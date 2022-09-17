@@ -1,5 +1,6 @@
 class Solution {
 public:
+    // Memoization solution
     int rob(vector<int>& nums) {
         vector<int> dp(nums.size()+1,-1);
         return fun(dp,nums,nums.size()-1);
