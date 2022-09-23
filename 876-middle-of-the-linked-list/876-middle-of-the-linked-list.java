@@ -9,25 +9,13 @@
  * }
  */
 class Solution {
-    public int listSize(ListNode head)
-    {
-        ListNode temp = head;
-        int size = 0;
-        while(temp != null)
-        {
-            size++;
-            temp = temp.next;
-        }
-        return size;
-    }
     public ListNode middleNode(ListNode head) {
-        ListNode temp = head;
-        int mid = listSize(head)/2 + 1;
-        while(mid>1)
+        ListNode fast = head,slow = head;
+        while(fast != null && fast.next!=null)
         {
-            temp = temp.next;
-            mid--;
+            fast =  fast.next.next;
+            slow = slow.next;
         }
-        return temp;
+        return slow;
     }
 }
