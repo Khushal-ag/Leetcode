@@ -6,7 +6,7 @@ Your task is to arrange the all the distinct items in lexicographical ascending 
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input:</strong>
+<pre style="position: relative;"><span style="font-size:18px"><strong>Input:</strong>
 N = 3
 A[] =
 ["2234597891 zmxvvxbcij 8800654113 jihgfedcba",
@@ -22,11 +22,11 @@ lexicographical order of their alpha-numeric
 code. Distinct items are printed only once. 
 The count of the items describes how many 
 such items are there, so items that appear 
-more than once have their count greater than 1.</span></pre>
+more than once have their count greater than 1.</span><div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input:</strong>
+<pre style="position: relative;"><span style="font-size:18px"><strong>Input:</strong>
 N = 2
 A[] =
 ["3122049353 onafrnbhtr 9822827304 yzfhdgzcvx", 
@@ -35,7 +35,7 @@ A[] =
 2992299540 lpvkgykmlk 6946169466 vdqwvywwgg  1
 3122049353 onafrnbhtr 9822827304 yzfhdgzcvx  1
 <strong>Explanation:</strong>
-Out of the 2 items here no one is repeated.</span></pre>
+Out of the 2 items here no one is repeated.</span><div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><span style="font-size:18px"><strong>Your Task:</strong><br>
 You don't need to read input or print anything. Your task is to complete the function <strong>sortedStrings()</strong> which takes an integer <strong>N</strong> and an array of strings <strong>A[ ]</strong> and returns the array in sorted order along with the frequency&nbsp;of each distinct string.</span></p>
