@@ -7,24 +7,24 @@
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input:</strong></span>
+<pre style="position: relative;"><span style="font-size:18px"><strong>Input:</strong></span>
 <span style="font-size:18px"><strong>N = </strong>7</span>
 <span style="font-size:18px"><strong>A[] = </strong>{3, 4, 7, 1, 2, 9, 8}</span>
 <span style="font-size:18px"><strong>Output:</strong></span>
 <span style="font-size:18px">0 2 3 5</span>
 <span style="font-size:18px"><strong>Explanation:</strong></span>
 <span style="font-size:18px">A[0] + A[2] = 3+7 = 10
-A[3] + A[5] = 1+9 = 10</span></pre>
+A[3] + A[5] = 1+9 = 10</span><div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input:</strong></span>
+<pre style="position: relative;"><span style="font-size:18px"><strong>Input:</strong></span>
 <span style="font-size:18px"><strong>N = </strong>4</span>
 <span style="font-size:18px"><strong>A[] = </strong>{424, 12, 31, 7}</span>
 <span style="font-size:18px"><strong>Output:</strong></span>
 <span style="font-size:18px">-1 -1 -1 -1</span>
 <span style="font-size:18px"><strong>Explanation:</strong></span>
-<span style="font-size:18px">There are no pairs satisfying the equation.</span></pre>
+<span style="font-size:18px">There are no pairs satisfying the equation.</span><div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 
