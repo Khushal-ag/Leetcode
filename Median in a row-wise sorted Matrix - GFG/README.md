@@ -4,7 +4,7 @@
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input</strong>:
+<pre style="position: relative;"><span style="font-size:18px"><strong>Input</strong>:
 R = 3, C = 3
 M = [[1, 3, 5], 
 &nbsp;    [2, 6, 9], 
@@ -12,19 +12,19 @@ M = [[1, 3, 5],
 <strong>Output:</strong>&nbsp;5
 <strong>Explanation</strong>: Sorting matrix elements gives 
 us {1,2,3,3,5,6,6,9,9}. Hence, 5 is median. 
-</span></pre>
+</span><div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 
 <p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
 
-<pre><span style="font-size:18px"><strong>Input:</strong>
+<pre style="position: relative;"><span style="font-size:18px"><strong>Input:</strong>
 R = 3, C = 1
 M = [[1], [2], [3]]
 <strong>Output: </strong>2
 <strong>Explanation</strong>: Sorting matrix elements gives 
 us {1,2,3}. Hence, 2 is median.</span>
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><br>
 <span style="font-size:18px"><strong>Your Task:&nbsp;&nbsp;</strong><br>
