@@ -2,9 +2,9 @@ class Solution {
 public:
     void merge(vector<int>& nums, int l, int m, int r){
         vector<int> tmp(r - l + 1);
-        int i = l; // index for left subarray
-        int j = m + 1; // index for right subarray
-        int k = 0; // index for temporary array
+        int i = l;
+        int j = m + 1;
+        int k = 0; 
         while(i <= m && j <= r){
             if(nums[i] <= nums[j]) tmp[k++] = nums[i++]; 
             else tmp[k++] = nums[j++];
@@ -15,7 +15,7 @@ public:
     }	
     void mergeSort(vector<int>& nums, int l, int r){
         if(l >= r) return;
-        int m = l + (r - l) / 2; //middle index, same as (l+r)/2
+        int m = l + (r - l) / 2; 
         mergeSort(nums, l, m);
         mergeSort(nums, m + 1, r);
         merge(nums, l, m, r);
